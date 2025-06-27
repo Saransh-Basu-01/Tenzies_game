@@ -1,0 +1,11 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+    overflow:hidden
+}
+
+@layer components {
+  .box {
+    @apply h-20 w-20 bg-blue-200 rounded-2xl flex justify-center items-center text-2xl italic;
+  }
+}
