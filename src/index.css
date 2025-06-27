@@ -4,6 +4,17 @@
     overflow:hidden
 }
 
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
 @layer components {
   .box {
     @apply h-20 w-20 bg-blue-200 rounded-2xl flex justify-center items-center text-2xl italic;
